@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="text/javascript">
+      document.write(
+        '<link rel="stylesheet" href="css/main.css?' + Math.random() + '">'
+      );
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed|Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css/main.css" /> -->
+    <title>Solem Roleplay</title>
+    <audio autoplay hidden loop id="myaudio">
+      <source src="music/lux.ogg" type="audio/ogg">
+      <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.2;
+      </script>
+    </audio>
+    </head>
+  <body>
+    <div class="background"></div>
+    <div class="overhaul"></div>
+    <nav>
+      <div id="announcement"></div>
+      <span id="map">Şu Oynanılan Map: </span>
+      <span id="steamid"></span>
+    </nav>
+
+    <div id="debug"></div>
+    <main>
+      <div class="title">
+        <h1 id="title"></h1>
+        <h2>Sunucumuza Hoşgeldiniz</h2>
+        <!--  <div id="history"></div>-->
+      </div>
+      <div class="under-nav"></div>
+      <div class="loading-box"></div>
+    </main>
+
+    <script src="js/lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+      document.write(
+        '<script src="js/config.js?' + Math.random() + '"><\/script>'
+      );
+      document.write(
+        '<script src="js/main.js?' + Math.random() + '"><\/script>'
+      );
+    </script>
+    <!-- <script src="config.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
+  </body>
+</html>
