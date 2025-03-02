@@ -50,7 +50,7 @@ var l_background = "backgrounds/videos/SeverusSnape-Survivor.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/deneme_bg.png"
+	"backgrounds/images/lux.png"
 	
 	
 ];
