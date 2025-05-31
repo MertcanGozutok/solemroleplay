@@ -50,7 +50,7 @@ var l_background = "backgrounds/videos/SeverusSnape-Survivor.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/lux.png"
+	"backgrounds/images/luxrp2.gif"
 	
 	
 ];
@@ -102,7 +102,7 @@ var l_messagesEnabled = true;
 var l_messages = [
 "Kurallar çercevesinde roleplay yapınız",
 "İyi roller dileriz",
-"M.B <3 LuxRest",
+"LuxRest <3 LuxRest",
 "Solem Hogwarts'a Hoşgeldiniz",
 "Sunucunun Tadını Çıkarın",
 "İyi Roller Dileriz",
